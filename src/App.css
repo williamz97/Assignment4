@@ -40,10 +40,15 @@ nav {
   text-align: center;
   background-color: bisque;
   flex: 30%;
+  max-width: 30%;
 }
 
 footer {
   font-size: 25px;
   text-align: center;
   background-color: cadetblue;
+}
+
+.dogImages {
+  object-position: contain;
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
 } from 'react-router-dom'
 
 // components
@@ -31,8 +30,9 @@ class App extends Component {
           <Route exact path='/blog1' component={Blog1} />
           <Route exact path='/blog2' component={Blog2} />
           <Route exact path='/blog3' component={Blog3} />
-
+          
           <Nav />
+          
         </div>
 
         <Footer />
