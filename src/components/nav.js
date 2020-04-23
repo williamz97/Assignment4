@@ -12,7 +12,7 @@ class Nav extends Component {
     }
 
     loadData() {
-        fetch("https://dog.ceo/api/breeds/image/random/1")
+        fetch("https://dog.ceo/api/breeds/image/random/4")
         .then(res => res.json())
         .then((data) => {
         this.setState({ dogs: data.message })
@@ -25,7 +25,7 @@ class Nav extends Component {
     }
     render() {
         const dogList = this.state.dogs.map((url) => {
-            return <Dog img_src={url}/>
+            return <Dog url={url}/>
         })
         return (
             <nav>
