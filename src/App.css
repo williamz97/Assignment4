@@ -1,0 +1,49 @@
+header {
+  text-align: center;
+  font-size: 75px;
+  font-style: normal;
+  width: 100%;
+  background-color: grey;
+}
+
+.column-layout {
+  display: flex;
+}
+
+/* Main styling */
+.main {
+  background-color: aqua;
+  flex: 70%;
+}
+
+.mainHeader {
+  text-align: center;
+}
+
+.blogPostContainer {
+  margin: 20px;
+  border-style: outset;
+  text-align: center;
+  overflow: hidden;
+}
+
+.blogSummary{
+  text-align: left;
+}
+
+.blogImg {
+  text-align: right;
+}
+
+/* Nav styling */
+nav {
+  text-align: center;
+  background-color: bisque;
+  flex: 30%;
+}
+
+footer {
+  font-size: 25px;
+  text-align: center;
+  background-color: cadetblue;
+}
